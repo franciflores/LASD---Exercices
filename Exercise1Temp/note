@@ -1,0 +1,19 @@
+bisogna rivedere testable per includere <Data>!
+
+FoldFunctor è il primo puntatore a funzione: è il parametro della funzione di Fold e indica alla funzione Fold che tipo di Fold và eseguito (in base alla struttura 
+e come è costruita).
+
+LinearContainer ha implementati operator[] e Front() e Back().
+
+Scaricare il class diagram.
+
+considerare di metterli pubblici
+
+includere ulong attraverso le librerie standard
+
+
+
+DA CHIEDERE:
+using typename   
+using typename FoldableContainer<Data>::FoldFunctor; 
+
